@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="onecard.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <img src="new.svg" alt="Logo" class="logo">
+                <li><a href="#" class="information">Product <img src="downarrow.svg" alt="Dropdown"></a></li>
+                <li><a href="#" class="market">Marketplace <img src="downarrow.svg" alt="Dropdown"></a></li>
+                <li><a href="#" class="information">Learn</a></li>
+                <li><a href="#" class="information">Resource <img src="downarrow.svg" alt="Dropdown"></a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <span>Login</span>
+            <span>Contact sales</span>
+            <button><strong>Get Started</strong> - It's Free</button>
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="btn">
+        <button class="made"><img src="color.svg" alt="Icon">Made in Webflow</button>
+    </div>
+
+    <main class="forgap">
+        <section class="firstmain">
+            <h1 class="heading">
+                Discover inspiring websites <br>
+                built by the Webflow community
+            </h1>
+            <p class="bookingline">Browse, clone, and customize thousands of websites #MadeinWebflow.
+                <a href="#" class="template">Looking for templates?</a>
+            </p>
+
+            <div class="searchbar">
+                <div class="image">
+                    <img src="search.svg" alt="Search Icon">
+                </div>
+                <input type="text" class="input" id="input" placeholder="Search">
+            </div>
+
+            <div class="sectionsbuttons">
+                <button class="downbuttons all">All</button>
+                <button class="downbuttons">Animation</button>
+                <button class="downbuttons">Interactions</button>
+                <button class="downbuttons">CMS</button>
+                <button class="downbuttons">Ecommerce</button>
+                <button class="downbuttons">Portfolio</button>
+            </div>
+        </section>
+
+        <section class="secondmain">
+            <div class="product">
+                <div class="proooo">
+                    <button class="pro">Product <img src="downarrow.svg" alt="Dropdown"></button>
+                </div>
+
+                <div class="mover">
+                    <div class="changer" id="changer">
+                        <div class="circle" id="circle"></div>
+                    </div>
+                    Cloneable sites only <img src="questionmark.svg" alt="Info" id="questionmark">
+                    <div class="contentquestion" id="contentquestion">
+                        Cloneable sites can be copied, modified, and used for personal or commercial purposes.
+                    </div>
+                </div>
+
+                <div class="showcase">
+                    <button class="showcasebtn">Showcase your site</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cardsmain">
+            <div class="outercard">
+                <div class="card">
+                    <img src="https://uploads-ssl.webflow.com/62b9fc0d5f100683876306fc/62ba00994f3bdb45674a3bb7_Capture-d%E2%80%99e%CC%81cran%2C-le-2022-06-27-a%CC%80-15.09.24.jpg" 
+                         alt="Company Policy Image" class="company">
+                    <div class="overlay"></div>
+                    <div class="view">View Details <img width="16" height="16" src="https://img.icons8.com/fluency-systems-filled/48/long-arrow-right.png" alt="Arrow"></div>
+                </div>
+                <div class="description">
+                    <h3>Company Policy</h3>
+                    <p>By Sam Charpentier</p>
+                </div>
+            </div>
+
+            <div class="outercard">
+                <div class="card">
+                    <img src="https://uploads-ssl.webflow.com/62b9fc0d5f100683876306fc/62ba00994f3bdb45674a3bb7_Capture-d%E2%80%99e%CC%81cran%2C-le-2022-06-27-a%CC%80-15.09.24.jpg" 
+                         alt="Another Project Image" class="company">
+                    <div class="overlay"></div>
+                    <div class="view">View Details <img width="16" height="16" src="https://img.icons8.com/fluency-systems-filled/48/long-arrow-right.png" alt="Arrow"></div>
+                </div>
+                <div class="description">
+                    <h3>Creative Portfolio</h3>
+                    <p>By Alex Johnson</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="cards.js"></script>
+</body>
+
+</html>
